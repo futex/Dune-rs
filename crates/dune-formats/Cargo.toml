@@ -1,0 +1,7 @@
+[package]
+name = "dune-formats"
+edition.workspace = true
+version.workspace = true
+description = "Readers for Cryo's Dune (1992, CD) data formats"
+
+[dependencies]

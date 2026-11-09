@@ -1,0 +1,13 @@
+[package]
+name = "dune-tools"
+edition.workspace = true
+version.workspace = true
+
+[[bin]]
+name = "dune-tool"
+path = "src/main.rs"
+
+[dependencies]
+dune-formats = { path = "../dune-formats" }
+png = "0.17"
+nuked-opl3 = "0.1"

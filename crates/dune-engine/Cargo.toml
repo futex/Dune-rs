@@ -1,0 +1,16 @@
+[package]
+name = "dune-engine"
+edition.workspace = true
+version.workspace = true
+description = "A Rust re-implementation of the Dune (1992, CD) engine, running on the original DUNE.DAT"
+build = "build.rs"
+
+[[bin]]
+name = "dune"
+path = "src/main.rs"
+
+[dependencies]
+dune-formats = { path = "../dune-formats" }
+sdl2 = "0.38"
+png = "0.17"
+nuked-opl3 = "0.1"
