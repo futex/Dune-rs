@@ -1,4 +1,4 @@
-# dune-rs
+# Dune-rs
 
 A Rust re-implementation of the engine of Cryo's **Dune** (1992, CD version 1993),
 built by reverse-engineering `DNCDPRG.EXE` and the `DUNE.DAT` archive.
